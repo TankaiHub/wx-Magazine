@@ -1,0 +1,3 @@
+<view class='container' catch:tap="onTap">
+    <image src="image/more.png" class='image' />
+</view>

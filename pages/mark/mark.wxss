@@ -1,0 +1,36 @@
+/* pages/mark/mark.wxss */
+.container{
+    display:flex;
+    flex-direction: column;
+    background: #fff;
+    padding:0 30rpx;
+}
+.user-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50rpx;
+}
+.user-name{
+    font-size:40rpx;
+}
+.user-avatar{
+    width:100rpx;
+    height:100rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-avatar image{
+  width:100rpx;
+  height:100rpx;
+}
+.share{
+    width:100rpx;
+    height:100rpx;
+    margin-top:30rpx;
+    margin-bottom: 30rpx;
+}
+.share image{
+    width:100rpx;
+    height:100rpx;
+
+}

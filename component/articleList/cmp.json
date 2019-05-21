@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "d-article":"../../component/article/cmp",
+    "d-loading":"../../component/loading/cmp"
+  }
+}

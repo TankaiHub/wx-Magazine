@@ -1,0 +1,32 @@
+<view class='container'>
+    <view >
+        <view >
+            <video class='video'
+                   id='{{videoId}}'
+                   hidden="{{showPoster}}"
+                   src="{{src}}"
+                   bindended="onVideoEnd"/>
+
+            <view class='poster-container'>
+                <image class='poster'
+                       hidden="{{!showPoster}}"
+                       src="{{poster}}"/>
+                
+                <view class='contoler'
+                      catch:tap="onPlay"
+                      hidden="{{!showPoster}}">
+                      
+                    <image class='play-btn' src="image/play.png" />
+                    <text class='duration'>{{duration}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='main-title'>
+        <text >{{mainTitle}}</text>
+    </view>
+    <view class='mask'
+          hidden='{{showPoster}}'
+          catch:tap="onMaskTap">
+    </view>
+</view>

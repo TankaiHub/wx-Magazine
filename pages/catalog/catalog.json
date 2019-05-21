@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "d-subscribe":"../../component/subscribe/cmp",
+    "d-tagList":"../../component/tagList/cmp",
+    "d-add":"../../component/add/cmp",
+    "d-search":"../../component/search/cmp"
+  }
+}

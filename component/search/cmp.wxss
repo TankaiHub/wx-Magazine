@@ -1,0 +1,17 @@
+/* component/search/cmp.wxss */
+.container{
+    display: flex;
+    margin-bottom:20rpx;
+}
+.search{
+    flex: 1;
+    padding:10rpx 14rpx;
+    background-color:#ccc;
+    opacity: 0.5;
+    font-size: 32rpx;
+}
+.text{
+    padding:10rpx 0;
+    margin-left:20rpx;
+    font-size:40rpx;
+}

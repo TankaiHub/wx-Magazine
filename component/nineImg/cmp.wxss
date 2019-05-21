@@ -1,0 +1,25 @@
+/* component/nineImg/cmp.wxss */
+.container{
+    width:700rpx;
+}
+.img-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:700rpx;
+    height:700rpx;
+}
+.image{
+    width:31%;
+    height:31%;
+}
+.img-num{
+    position: absolute;
+    right:80rpx;
+    bottom:80rpx;
+    background-color:rgba(0,0,0,.7);
+    color:#fff;
+    padding:20rpx;
+    font-size:24rpx;
+}
